@@ -52,6 +52,16 @@
 	<!-- wordpress footer functions -->
 	<?php wp_footer(); ?>
 	<!-- end of wordpress footer -->	
+    <!-- packery -->
+    <script>
+    // external js: packery.pkgd.js
+
+    $('.grid').packery({
+      itemSelector: '.grid-item',
+      columnWidth: 100
+    });
+
+    </script>
 
 	</body>
 </html>

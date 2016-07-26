@@ -1,0 +1,36 @@
+/* ---- grid ---- */
+
+
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-item {
+  float: left;
+  width: 400px;
+  height: auto;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.grid-item--width2 { width: 200px; }
+.grid-item--height2 { height: 200px; }
+
+
+.landscape {
+
+}
+
+.square {
+
+}
+
+.portrait {
+
+}

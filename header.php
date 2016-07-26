@@ -52,6 +52,14 @@
 
 </script>
 
+
+    <!-- packery -->
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/packery.css" />	
+    <!-- JS -->
+    <!-- packery -->
+    <script src="<?php bloginfo('template_directory'); ?>/js/jquery.min.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/js/packery.pkgd.js"></script>
+
 	<!-- wordpress head functions -->
 	<?php wp_head(); ?>
 	<!-- end of wordpress head -->	
