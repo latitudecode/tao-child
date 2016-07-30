@@ -53,8 +53,9 @@
 </script>
 
 
-    <!-- packery -->
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/packery.css" />	
+    <!-- mosaic -->
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/mosaic.css" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/hover-2.css" />	
     <!-- grid -->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/grid.css" />
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/lemonade.css" />    	
