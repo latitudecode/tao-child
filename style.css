@@ -2877,3 +2877,13 @@ figure.effect-hover:before, figure.effect-hover h2:before {
 	font-weight: normal;
 	font-style: normal;
 }
+
+/* logo */
+
+.logo img {
+    width: 335px;
+}
+
+.secondary-logo-link img {
+    width: 130px;
+}
