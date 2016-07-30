@@ -55,10 +55,11 @@
 
     <!-- packery -->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/packery.css" />	
+    <!-- grid -->
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/grid.css" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/lemonade.css" />    	
     <!-- JS -->
-    <!-- packery -->
-    <script src="<?php bloginfo('template_directory'); ?>/js/jquery.min.js"></script>
-    <script src="<?php bloginfo('template_directory'); ?>/js/packery.pkgd.js"></script>
+
 
 	<!-- wordpress head functions -->
 	<?php wp_head(); ?>
