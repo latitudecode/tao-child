@@ -39,7 +39,7 @@ require_once( get_template_directory() . '/functions/plugins.php' );
 // Adding WP 3+ Functions & Theme Support
 function oy_theme_support() {
 	
-	add_theme_support( 'post-thumbnails', array( 'post', 'portfolio', 'pages' ) );
+	add_theme_support( 'post-thumbnails', array( 'post', 'portfolio', 'pages', 'blocks' ) );
 	add_theme_support( 'custom-background' );
 	add_theme_support('automatic-feed-links'); // rss thingy
 	add_theme_support( 'menus' );            // wp menus
@@ -361,5 +361,41 @@ function slug_set_reorder( $post_types ) {
     $post_types = array( 'portfolio' );
     return $post_types;
 }
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/* Custom post types*/
+/*-----------------------------------------------------------------------------------*/
+
+/* HOMEPAGE BLOCKS */
+
+add_action( 'init', 'creater_post_type_blocks' );
+function creater_post_type_blocks() {
+  register_post_type( 'blocks',
+    array(
+      'labels' => array(
+        'name' => __( 'Home Images' ),
+        'singular_name' => __( 'Image Block' )
+      ),
+      'public' => true,
+      'has_archive' => true,      
+      'rewrite' => array('slug' => 'block'),
+      'supports' => 
+          array(
+            'title',
+            'custom-fields',
+            'category',
+            'author',
+            'editor',            
+            'thumbnail',
+            'post-formats',
+            'thumbnail',
+            'page-attributes'         
+    )
+    )
+  );
+}
+
 
 ?>
