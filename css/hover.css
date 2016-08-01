@@ -1,8 +1,19 @@
 /* Image hover effects */
 
+a:hover img {
+    opacity: .7;
+	-webkit-transition: opacity 0.75s, -webkit-transform 0.75s;
+	transition: opacity 0.75s, transform 0.75s;    
+}
+
+
+
+
 figure.effect-hover {
+	/* 
 	z-index: auto;
 	overflow: visible;
+	*/
 }
 
 figure.effect-hover:before,

@@ -25,8 +25,8 @@ Template Name: Updated homepage
 				<?php if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 
 		          	<a href="/?portfolio_category=commercial">
-		          		<figure class="effect-hover">
-			          	 	<span class="enter1">Commercial</span>
+		          		<span class="enter1">Commercial</span>
+		          		<figure class="">
 							<!-- <img src="<?php bloginfo('template_directory'); ?>/images/image1.jpg" /> -->
 							<?php 
 							if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
@@ -159,8 +159,8 @@ Template Name: Updated homepage
 
 				<?php if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 		   		<a href="/?portfolio_category=residential">
-	          		<figure class="effect-hover">
-		          	 	<span class="enter2">Residential</span>
+		          	<span class="enter2">Residential</span>		   			
+	          		<figure class="">
 							<?php 
 							if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
 								the_post_thumbnail();

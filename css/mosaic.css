@@ -21,6 +21,7 @@
 
 .grid-item.width-1 {
     margin-right: 9px;
+  cursor: pointer;    
 }
 
 .width-2 {
@@ -63,6 +64,7 @@
 
 .grid-item.width-7 {
     margin-bottom: 9px;
+      cursor: pointer;
 }
 
 .width-8 {
@@ -82,10 +84,9 @@
 
 .grid .enter1 {
     position: absolute;
-    z-index: 9999;
+    z-index: 9999 !important;
     bottom: 3%;
     left: 31%;
-    color: #fff;
     font-family: 'AvenirLTStd-Book', sans-serif;
     text-transform: uppercase;
     font-size: 24px;
@@ -94,10 +95,9 @@
 
 .grid .enter2 {
     position: absolute;
-    z-index: 9999;    
+    z-index: 9999 !important;    
     bottom: 3%;
     left: 35%;
-    color: #fff;
     font-family: 'AvenirLTStd-Book', sans-serif;
     text-transform: uppercase;
     font-size: 24px;
@@ -106,6 +106,16 @@
 
 .grid-item {
   position: relative;
+}
+
+.grid a {
+  cursor: pointer;
+  color: #fff;
+}
+
+.grid a:hover {
+  color: #f5f5f5 !important;
+  -webkit-transition: opacity 0.35s;
 }
 
 /* devices */
