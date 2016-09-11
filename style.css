@@ -2890,3 +2890,10 @@ figure.effect-hover:before, figure.effect-hover h2:before {
 .secondary-logo-link img {
     width: 130px;
 }
+
+
+/* previous link removal */
+
+.postid-582 .prev-page {
+	display: none;
+}
