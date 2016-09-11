@@ -1968,7 +1968,10 @@
 	
 	/**
 	 * Metaslider Plugin
-	 */
+	 */	 
+	.metaslider {
+		max-width: 100% !important;	
+	}		 
 	.metaslider img {
 		margin-bottom: 0;	
 	}	

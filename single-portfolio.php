@@ -14,7 +14,7 @@
 		<?php $next_link = $adjacent_links[1]; ?>
 			
 		<h1 class="item-title post-title massive"><?php the_title(); ?></h1>
-		
+
 		<ul class="pager group">
         	<li class="prev-page">   				  
 				<?php if($prev_link) { ?>
