@@ -172,12 +172,16 @@
 						
 										
 						<div class="header-buttons <?php if(!$email && !$telephone && !$address) { ?>contact-excluded<?php } ?>">
+							
+
+							<!-- search button -->
+							<!-- start search button
 							<div class="buttons-container">
 								<form method="get" class="main-search-form" action="<?php echo home_url(); ?>">
 								    <div class="input-wrap">
 								    	<input type="text" class="main-search-field" name="s" id="s" />
 									</div>
-								</form><!-- /.main-search-form -->
+								</form><!-- /.main-search-form 
 								<span class="search-icon header-icon"><span class="close-search"></span></span>
 									
 								<?php if($email || $telephone || $address) { ?>	
@@ -189,10 +193,18 @@
 											<?php if($telephone) { ?><li class="contact-information telephone"><?php echo $telephone; ?></li><?php } ?>
 											<?php if($address) { ?><li class="contact-information location"><?php echo $address; ?></li><?php } ?>
 										</ul>						
-									</div><!-- /.contact-content -->
+									</div><!-- /.contact-content 
 								<?php } ?>
+
 											
-							</div><!-- /.buttons-container -->						
+							</div><!-- /.buttons-container -->	
+
+							<!-- new navigation -->
+							<nav class="top-nav">
+								<?php wp_nav_menu( array( 'theme_location' => 'main') ); ?>
+							</nav>
+							<!-- / end new navitaion -->
+
 						</div><!-- /.header-buttons -->
 						
 					</div><!-- /.header-primary-content -->

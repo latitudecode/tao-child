@@ -2897,3 +2897,64 @@ figure.effect-hover:before, figure.effect-hover h2:before {
 .postid-582 .prev-page {
 	display: none;
 }
+
+
+/* new menus */
+
+nav.top-nav {
+	width: 455px;
+	margin-top: 11px;
+}
+
+nav.top-nav .menu {
+	text-transform: capitalize;
+}
+
+nav.top-nav .menu a {
+	display: inline;
+	font-style: normal;
+	transition: none;
+	color: #4c4c4c;
+	letter-spacing: 2px;
+	font-size: 13px;
+}
+
+nav.top-nav .menu a, nav.top-nav .menu a:after {
+	text-shadow: none;
+}
+
+nav.top-nav .menu li {
+    display: inline;
+    padding-right: 18px;
+}
+
+nav.top-nav .menu a:after {
+	transform: none;
+	transition: none;
+	opacity: 100%;
+	content: none;	
+}
+
+nav.top-nav .menu a:hover {
+	padding: 0px;
+	box-shadow: none;
+	color: #a7abb1;
+	background: none;
+}
+
+	@media only screen and (max-width: 3000px) {
+
+		.menu-indicator {
+		    display: none;
+		}
+	}
+
+	@media only screen and (max-width: 761px) {
+
+		nav.top-nav {
+			display: none;
+		}
+
+	}
+
+
