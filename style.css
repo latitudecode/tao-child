@@ -508,7 +508,7 @@
     		display: table;
     		width: 100%;
     		position: relative; 
-	    	padding: 40px 0 0px 0;
+	    	padding: 15px 0 0px 0;
 	    	margin-bottom: 40px;
     
 			border-bottom: 1px solid #e6e6e6; 
@@ -1091,7 +1091,7 @@
 		text-align: center;
 	}
 	.single-portfolio .item-title {
-		margin: 15px 0px 30px 0px;
+		margin: 15px 0px -10px 0px;
     }
 	
 	/**
@@ -2632,7 +2632,8 @@
     .cssanimations .search-icon,
     .cssanimations .tagline,
     .cssanimations .post-title,
-    .cssanimations .animated-el
+    .cssanimations .animated-el,
+    .cssanimations .post-title
     {
 		opacity: 0;
 		transform: translateY(-20px);
@@ -2956,5 +2957,14 @@ nav.top-nav .menu a:hover {
 		}
 
 	}
+
+/* project type subtitle */
+
+.main-content h2.item-subtitle {
+	font-family: 'Lora', Georgia, serif;
+	font-size: 15px;
+	color: #484848;
+	text-align: center;
+}
 
 

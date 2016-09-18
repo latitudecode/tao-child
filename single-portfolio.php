@@ -14,6 +14,9 @@
 		<?php $next_link = $adjacent_links[1]; ?>
 			
 		<h1 class="item-title post-title massive"><?php the_title(); ?></h1>
+		<h2 class="item-subtitle post-title">
+			<?php echo get_post_meta($post->ID, 'project_type', true); ?>
+		</h2>
 
 		<ul class="pager group">
         	<li class="prev-page">   				  
